@@ -1,0 +1,196 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+body {
+  height: 1000px;
+  color: #333;
+}
+input, textarea:focus {
+  outline: 0;
+}
+
+.container, small{
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  background: #fca8b6;
+  position: fixed;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-logo {
+  padding: 10px 0;
+}
+.header-logo a {
+  font-weight: normal;
+  font-size: 40px;
+  color: #fff;
+  transition: 0.5s;
+}
+.header-logo a:hover {
+  opacity: 0.8;
+}
+
+.m-header-menu {
+  display: none;
+  color: #fff;
+  font-size: 30px;
+}
+
+.d-header-menu ul {
+  display: flex;
+}
+
+.d-header-menu li {
+  margin-left: 40px;
+}
+
+.d-header-menu a {
+  color: #fff;
+  font-size: 20px;
+  transition: 0.5s;
+}
+.d-header-menu a:hover {
+  opacity: 0.6;
+}
+
+.top-wrapper {
+  text-align: center;
+  height: 500px;
+  background: #f5d7e6;
+  color: #fff;
+}
+
+.top-wrapper h2 {
+  font-weight: bold;
+  font-size: 60px;
+  padding-top: 150px;
+  letter-spacing: 5px;
+}
+.top-wrapper p {
+  font-size: 20px;
+}
+.products-wrapper {
+  margin: 100px auto;
+  text-align: center;
+}
+h3 {
+  font-weight: normal;
+  font-size: 30px;
+  margin: 50px auto;
+  color: #c97583;
+  border-bottom: dashed 1px #fca8b6;
+  width: 50%;
+  padding-top: 80px;
+}
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px auto;
+}
+.product {
+  width: 25%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.product-icon div {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  background: pink;
+}
+.product > p {
+  width: 80%;
+  margin: 15px auto;
+  font-size: 12px;
+  color: #666;
+}
+
+.contact-wrapper {
+  text-align: center;
+  margin: 100px auto 180px auto;
+}
+.contact-wrapper form {
+  max-width: 500px;
+  margin: auto;
+  text-align: left;
+}
+.contact-wrapper form > div {
+  margin-bottom: 30px;
+}
+.contact-wrapper form label {
+  display: block;
+  font-size: 16px;
+  padding-left: 7px;
+  border-left: solid 3px #fca8b6;
+  margin-bottom: 15px;
+}
+.email input, .tel input {
+  width: 350px;
+  height: 40px;
+  padding: 10px;
+  font-size: 15px;
+  border: solid 1px #dda1ab;
+}
+.txt textarea {
+  border: solid 1px #dda1ab;
+  padding: 10px;
+  font-size: 15px;
+  width: 100%;
+}
+.btn {
+  margin-top: 50px;
+  text-align: center;
+}
+.btn input {
+  padding: 10px 30px;
+  background-color: #fca8b6;
+  border: none;
+  color: #fff;
+  transition: 0.5s;
+}
+.btn input:hover {
+  opacity: 0.6;
+}
+
+footer {
+  color: #fff;
+  background: #c97583;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+footer .container {
+  display: flex;
+  justify-content: space-between;
+}
+footer a {
+  color: #fff;
+  transition: 0.5s;
+}
+.footer-logo {
+  font-weight: normal;
+  font-size: 23px;
+}
+.footer-menu li {
+  margin: 10px auto;
+}
+.copy {
+  text-align: center;
+  margin: 10px auto;
+}
+footer a:hover {
+  opacity: 0.6;
+}

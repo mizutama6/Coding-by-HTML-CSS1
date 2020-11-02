@@ -1,0 +1,19 @@
+@media all and (max-width: 1000px) {
+  .product {
+    width: 50%;
+  }
+}
+@media all and (max-width: 670px) {
+  .d-header-menu {
+    display: none;
+  }
+  .m-header-menu {
+    display: block;
+  }
+  .top-wrapper {
+    text-align: left;
+  }
+  .product {
+    width: 100%;
+  }
+}
